@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+
+
+/* 슬라이드 */
+
+.slide {
+	position:relative;
+	width:1600px;
+	height:700px;
+	overflow:hidden;
+	/* border:1px solid red; */
+}
+
+.cover>div {
+	width:1600px;
+	height:700px;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-position:center center;
+	/* border:1px solid red; */
+}
+
+.cover>div:nth-child(1) {
+	background-image:url(../img/main_slide4.png);
+}
+
+/* content 시작 */
+
+.contents {
+	position:relative;
+	/* min-height:500px; */
+	text-align:center;
+	margin-bottom: 50px;
+}
+
+.sub_menu {
+	width:1600px;
+	height:50px;
+	background-color:#3d423d;
+	box-sizing:border-box;
+}
+
+.sub_menu>ul>li {
+	float:left;
+	width:25%;
+	line-height:47px;
+	/* border:1px solid red; */
+	box-sizing:border-box;
+}
+
+.sub_menu>ul>li:hover {
+	background-color:#66803a;
+	font-weight:bold;
+}
+
+.sub_menu>ul>li>input {
+	display:none;
+}
+
+.sub_menu>ul>li>label {
+	color:#fff;
+	font-size:20px;
+	font-weight:nomal;
+}
+
+.sub_menu>ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+
+/* 리뷰들 시작 */
+
+.community {
+	width:1550px;
+	text-align:center;
+	margin-top:50px;
+}
+
+.community_cover>div {
+	width:1550px;
+}
+
+.community_cover>div>p {
+	height:45px;
+	color:#fff;
+	background-color:#5f5f5f;
+	border-radius:4px;
+	border:2px solid #efeadb;
+	line-height:40px;
+	box-sizing:border-box;
+}
+
+.community_cover>div>p:nth-child(1) {
+	width:15%;
+	float:left;
+}
+
+.community_cover>div>p:nth-child(2) {
+	width:85%;
+	float:right;
+}
+
+.community>li {
+	width:1550px;
+	height:90px;
+	float:left;
+	margin-top:15px;
+	padding-left:15px;
+	border:1px solid #ddd;
+	background-color:white;
+	border-radius:12px;
+	box-sizing:border-box;
+}
+
+.community>li:hover {
+	background-color:#e9dec3;
+}
+
+.community>li>h3 {
+	color:#424242;
+	font-size:1.4em;
+	font-weight:bold;
+	text-align:left;
+	padding-top:10px;
+	
+}
+
+.community>li>h3>span {
+	color:red;
+	float:right;
+	font-size:0.7em;
+	padding-right:15px;
+}
+
+.community>li>p {
+	width:1510px;
+	float:left;
+	font-size:15px;
+	padding-top:5px;
+	text-align:left;
+	
+}
+
+.community>li>p>time {
+	float:right;
+}
+
+
+.community:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

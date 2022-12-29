@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* 회원정보 */
+.contents {height: 700px;}
+.contents>h2 {
+	font-size:2em; text-align:left;
+	width:1000px; margin-top:150px; 
+}
+
+.contents>.h2_ex {
+	width:1000px; padding-bottom:20px;
+	border-bottom:2px solid #3d423d;
+	text-align:left; 
+}
+
+.contents>form {
+	position:relative; width:920px;
+	margin-top:30px;
+}
+
+.contents .my_img {
+	width:470px; height:470px;
+	margin-right:20px; float:left;
+}
+
+.contents>form p:nth-child(2) {
+	margin-bottom:20px;
+	margin-top:40px;
+	float:right;
+}
+
+.contents>form>p:nth-child(3) {
+	float:right;
+}
+
+.contents label {
+	float:left; height:35px;
+	box-sizing:border-box;
+	font-size:1.2em; text-align:left;
+	font-weight:bold; line-height:35px;
+}
+
+.contents>form>p>input {
+	width:325px;
+	border-radius:4px;
+	margin-left:15px;
+	border:1px solid gray;
+}
+
+.contents>form>p:nth-child(2)>input {
+	height:30px;
+}
+
+.contents>form>p:nth-child(3)>input {
+	height:300px;
+}
+
+.contents li {
+	float:right;
+	margin:30px 0 0 10px;
+}
+
+
+.button3 button {
+	width:100px; height:30px;
+	background-color:#3d423d;
+	border-radius:6px; border: none;
+	color:#fff; font-size:13px;
+	text-align: center;
+}
+
+.button3 button>input {
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

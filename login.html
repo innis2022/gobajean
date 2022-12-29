@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/login.js"></script>
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>고바진</title>
+</head>
+<body>
+	<header>
+		<h1><a href="./index.html"><img src="img/logo.png" alt="로고이미지"></a></h1>
+		<nav>
+			<ul class="main">
+				<li><a href="./brand.html" class="ad">소개</a>
+					<ul class="sub">
+						<li><a href="./brand.html">고바진 소개</a></li>
+						<li><a href="./brand.html">고바진 스토리</a></li>
+					</ul>
+				</li>
+				<li><a href="./food.html" class="ad">맛집</a>
+					<ul class="sub">
+						<li><a href="./food.html">서쪽맛집</a></li>
+						<li><a href="./food.html">동쪽맛집</a></li>
+						<li><a href="./food.html">섬(도)맛집</a></li>
+						<li><a href="./food.html">Bast 10</a></li>
+					</ul>
+				</li>
+				<li><a href="./sightseeing.html" class="ad">관광</a>
+					<ul class="sub">
+						<li><a href="./sightseeing.html">서쪽관광</a></li>
+						<li><a href="./sightseeing.html">동쪽관광</a></li>
+						<li><a href="./sightseeing.html">섬(도)관광</a></li>
+						<li><a href="./sightseeing.html">Bast 10</a></li>
+					</ul>
+				</li>
+				<li><a href="./community.html" class="ad">커뮤니티</a>
+					<ul class="sub">
+						<li><a href="./community.html">질문게시판</a></li>
+						<li><a href="./community.html">자유게시판</a></li>
+						<li><a href="./community.html">공지FQA</a></li>
+						<li><a href="./community.html">Bast Tip</a></li>
+					</ul>
+				</li>
+				<li><a href="./my_page.html" class="ad">마이페이지</a>
+					<ul class="sub">
+						<li><a href="./my_page.html">MY구독</a></li>
+						<li><a href="./my_page.html">관심글</a></li>
+						<li><a href="./my_page.html">작성글</a></li>
+						<li><a href="./my_page.html" class="last">쪽지</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="sub_bg"></div>
+		</nav>
+		<section class="login">
+			<h2 class="hidden">로그인</h2>
+			<div class="login_cover">
+				<ul>
+					<li><a href="./login.html">로그인/회원가입</a></li>
+				</ul>
+			</div>
+		</section>
+	</header>
+	<div class="contents">
+		<h2>로그인</h2>
+		<form id="login">
+			<p><label for="name">아이디</label>  
+				<input type="text" name="name" >
+			</p>
+			<p><label for="password">비밀번호</label>    
+				<input type="password" name="password" size="12">
+			</p>
+			<button class="loginButton">로그인</button>
+			<ul>
+				<li>
+					<input type="checkbox" name="save" value="save" id="save">
+					<label for="save">보안접속하기</label>
+				</li>
+				<li>
+					<input type="checkbox" name="save" value="save" id="save">
+					<label for="save">아이디 저장하기</label>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<section id="join">
+		<h2>회원가입</h2>
+		<p class="acc">고바진의 이용약관, 개인정보 수집 및 이용, 위치정보 이용약관(선택),프로모션 정보수집(선택)에 모두 동의해야합니다<br>
+		또한 고바진에서 제공하는 이벤트/혜택 등 다양한 정보를 휴대전화(네이버앱 알림 또는 문자), 이메일로 받아보실 수 있습니다.<br></p>
+		<h4>SNS로 가입하기</h4>
+		<div id="snsLogin">
+			<div>
+				<a href="https://ko-kr.facebook.com/">
+					<img src="img/login-icon-01.png" alt="페이스북 로그인">
+				</a>
+			</div>
+			<div>
+				<a href="https://twitter.com/login/">
+					<img src="img/login-icon-02.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.instagram.com/accounts/login/">
+					<img src="img/login-icon-03.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.kakaocorp.com/page/service/service/KakaoTalk">
+					<img src="img/login-icon-04.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=SignUp">
+					<img src="img/login-icon-05.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-signin">
+					<img src="img/login-icon-06.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com">
+					<img src="img/login-icon-07.png" alt="">
+				</a>
+			</div>
+			<div>
+				<a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com">
+					<img src="img/login-icon-08.png" alt="">
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer>
+	<nav>
+	<h2><a href="./index.html"><img src="img/logo2.png" alt="하단로고"></a></h2>
+		<address>
+			<p>고객만족센터 : 02. 3412. 0781</p>
+			<p>제주 서귀포시 대정읍 최남단해안로 412길 대표 : 황인희</p>
+			<p>사업자등록번호 : 215-86-65050 개인정보 책임자 : 황인희 TEL. 02-3412-0781 FAX. 02-3412-1907</p>
+			<p>COPYRIGHT ⓒ 2015 TOM N TOMS COFFEE. ALL RIGHTS RESERVED.</p>
+		</address>
+		<ul>
+			<li><a href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="트위터"></a></li>
+			<li><a href="https://www.facebook.com/"  target="_blank"><img src="img/f.png" alt="페이스북"></a></li>
+			<li><a href="https://www.instagram.com/"  target="_blank"><img src="img/ins.png" alt="인스타"></a></li>
+		</ul>
+	</nav>
+	</footer>
+</body>
+</html>

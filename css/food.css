@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+
+
+/* 슬라이드 */
+
+.slide {
+	position:relative;
+	width:1600px;
+	height:700px;
+	overflow:hidden;
+	/* border:1px solid red; */
+}
+
+.cover>div {
+	width:1600px;
+	height:700px;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-position:center center;
+	/* border:1px solid red; */
+}
+
+.cover>div {
+	background-image:url(../img/sub_slide1.png);
+}
+
+/* content 시작 */
+
+.contents {
+	position:relative;
+	min-height:500px;
+	text-align:center;
+}
+
+.sub_menu {
+	width:1600px; height:50px;
+	background-color:#3d423d;
+	box-sizing:border-box;
+}
+
+.sub_menu li {
+	float:left; width:25%;
+	line-height:47px;
+	/* border:1px solid red; */
+	box-sizing:border-box;
+}
+
+.sub_menu li:hover {
+	background-color:#b58b61;
+	font-weight:bold;
+}
+
+.sub_menu input {
+	display:none;
+}
+
+.sub_menu label {
+	color:#fff;
+	font-size:20px;
+	font-weight:nomal;
+}
+
+.sub_menu>ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+
+/* 리뷰들 시작 */
+
+
+.images {
+	width:1600px; color:#fff;
+	text-align:center;
+	/* padding:20px 0; */
+	margin-top:50px;
+	border-top:1.5px solid #3d423d;
+	border-bottom:1.5px solid #3d423d;
+}
+
+.images>li {
+	float:left; height:560px;
+	margin:50px 30px 30px 50px;
+	/* border:1px solid red; */
+	overflow:hidden;
+	
+}
+
+.images img {
+	width:450px; height:500px;
+	transform:scale(1.0);
+	transition:transform 1s;
+	overflow:hidden;
+}
+
+.images img:hover {
+	transform:scale(1.02);
+	transition:pointer;
+	opacity:0.7;
+}
+
+.images h2 {
+	color:#66803a;
+	letter-spacing:5px;
+	text-align:center;
+	padding-top:10px;
+}
+
+.images h3 {
+	text-align:left;
+	padding-top:5px;
+}
+
+.images>li>p:nth-child(3) {
+	font-size:15px;
+	text-align:left;
+}
+
+
+.plus {
+	text-align:center;
+}
+
+.images:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+/* 버튼 */
+
+
+button {
+	width:150px;
+	height:40px;
+	border-radius:40px;
+	border:1px solid #ccc;
+	margin-top:50px;
+	margin-bottom:50px;
+	cursor:pointer;
+	
+}

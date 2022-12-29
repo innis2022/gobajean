@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+	
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/sightseeing.js"></script>
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/sightseeing.css" rel="stylesheet">
+	<title>고바진</title>
+</head>
+<body>
+	<header>
+		<h1><a href="./index.html"><img src="img/logo.png" alt="로고이미지"></a></h1>
+		<nav>
+			<ul class="main">
+				<li><a href="./brand.html" class="ad">소개</a>
+					<ul class="sub">
+						<li><a href="./brand.html">고바진 소개</a></li>
+						<li><a href="./brand.html">고바진 스토리</a></li>
+					</ul>
+				</li>
+				<li><a href="./food.html" class="ad">맛집</a>
+					<ul class="sub">
+						<li><a href="./food.html">서쪽맛집</a></li>
+						<li><a href="./food.html">동쪽맛집</a></li>
+						<li><a href="./food.html">섬(도)맛집</a></li>
+						<li><a href="./food.html">Bast 10</a></li>
+					</ul>
+				</li>
+				<li><a href="./sightseeing.html" class="ad">관광</a>
+					<ul class="sub">
+						<li><a href="./sightseeing.html">서쪽관광</a></li>
+						<li><a href="./sightseeing.html">동쪽관광</a></li>
+						<li><a href="./sightseeing.html">섬(도)관광</a></li>
+						<li><a href="./sightseeing.html">Bast 10</a></li>
+					</ul>
+				</li>
+				<li><a href="./community.html" class="ad">커뮤니티</a>
+					<ul class="sub">
+						<li><a href="./community.html">질문게시판</a></li>
+						<li><a href="./community.html">자유게시판</a></li>
+						<li><a href="./community.html">공지FQA</a></li>
+						<li><a href="./community.html">Bast Tip</a></li>
+					</ul>
+				</li>
+				<li><a href="./my_page.html" class="ad">마이페이지</a>
+					<ul class="sub">
+						<li><a href="./my_page.html">MY구독</a></li>
+						<li><a href="./my_page.html">관심글</a></li>
+						<li><a href="./my_page.html">작성글</a></li>
+						<li><a href="./my_page.html">쪽지</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="sub_bg"></div>
+		</nav>
+		<section class="login">
+		<div class="login_cover">
+			<ul>
+				<li><a href="./login.html">로그인/회원가입</a></li>
+			</ul>
+		</div>
+		</section>
+	</header>
+	<section  class="slide">
+	<h2 class="hidden">슬라이드 배너</h2>
+		<div class="cover">
+			<div><img src="img/sub2_slide2.png" alt="관광페이지 슬라이드"></div>
+		</div>
+	</section>
+	<div class="contents">
+	<form>
+		<div class="sub_menu">
+			<ul>
+				<li>
+					<input type="checkbox" name="west" value="west" id="west">
+					<label for="west">서쪽관광</label>
+				</li>
+				<li>
+					<input type="checkbox" name="east" value="east" id="east">
+					<label for="east">동쪽관광</label>
+				</li>
+				<li>
+					<input type="checkbox" name="island" value="island" id="island"><label for="island">섬(도)관광</label>
+				</li>
+				<li>
+					<input type="checkbox" name="bast" value="bast" id="bast"><label for="bast">Bast 10</label>
+				</li>
+			</ul>
+		</div>
+		<div class="images_cover">
+			<ul class="images">
+				<li title="west">
+					<p><img src="img/sightseeing1.png" alt="food"></p>
+					<h2>WEST 관광지</h2>
+				</li>
+				<li title="west">
+					<p><img src="img/sightseeing_review1.png" alt="food"></p>
+					<h3>제주애공방에서 눈돌아갔어요</h3>
+					<p>제주 소품샵은 꼭 들러야 할 것 같아서 왔는데.. 와</p>
+				</li>
+				<li title="west">
+					<p><img src="img/sightseeing_review2.png" alt="food"></p>
+					<h3>무난하게 즐겼어요</h3>
+					<p>노후된 시설에 사악한 가격,이냥저냥 즐거웠습니다.</p>
+				</li>
+				<li title="west">
+					<p><img src="img/sightseeing_review3.png" alt="food"></p>
+					<h3>아날로그 감성 필름로그</h3>
+					<p>여행의 반드시 해야하는 사진찍기!일회용 카메라사러갔어요!</p>
+				</li>
+				<li title="west">
+					<p><img src="img/sightseeing_review4.png" alt="food"></p>
+					<h3>제주 야시장 꼭 가게요</h3>
+					<p>소품샵보다 더 저렴하고 종류도 다양해서 시간 가는 줄 몰랐어요^^</p>
+				</li>
+				<li title="west">
+					<p><img src="img/sightseeing_review5.png" alt="food"></p>
+					<h3>포토맛집 비밀의 숲</h3>
+					<p>저렴한 입장료에 인생샷 찍기 좋은 장소예요!</p>
+				</li>
+				<li title="east">
+					<p><img src="img/sightseeing2.png" alt="food"></p>
+					<h2>EAST 관광지</h2>
+				</li>
+				<li title="east">
+					<p><img src="img/sightseeing_review6.png" alt="food"></p>
+					<h3>고즈넉한 분위기 장소</h3>
+					<p>유리창 너머 제주분위기가 나는 장소라 좋았어요</p>
+				</li>
+				<li title="east">
+					<p><img src="img/sightseeing_review7.png" alt="food"></p>
+					<h3>여기가 어딜까용?ㅎㅎ</h3>
+					<p>나라에서 유명한 관광지 축소판을 볼 수 있는 곳입니다!</p>
+				</li>
+				<li title="east">
+					<p><img src="img/sightseeing_review8.png" alt="food"></p>
+					<h3>눈이 시원한 장소</h3>
+					<p>안돌오름에서 산책로를 따라서~</p>
+				</li>
+				<li title="east">
+					<p><img src="img/sightseeing_review9.png" alt="food"></p>
+					<h3>기여운 스누피가든</h3>
+					<p>숨어있는 스누피 친구들을 찾아가는 재미</p>
+				</li>
+				<li title="island">
+					<p><img src="img/sightseeing3.png" alt="food"></p>
+					<h2>ISLAND 관광지</h2>
+				</li>
+				<li title="island">
+					<p><img src="img/sightseeing_review10.png" alt="food"></p>
+					<h3>안녕 우도</h3>
+					<p>안녕 땅꽁맛집 우도야!</p>
+				</li>
+				<li title="island">
+					<p><img src="img/sightseeing_review11.png" alt="food"></p>
+					<h3>조용한 섬에서 체험하기</h3>
+					<p>사진 찍어보니 영화에 한장면 같아서 좋았어요</p>
+				</li>
+				<li title="island">
+					<p><img src="img/sightseeing_review12.png" alt="food"></p>
+					<h3>해수욕장에 놀러왔어요</h3>
+					<p>아이와 같이 가족끼리 왔는데 좋은 추억이 되었어요</p>
+				</li>
+				<li title="island">
+					<p><img src="img/sightseeing_review13.png" alt="food"></p>
+					<h3>포토존을 위해 꼭 가야하는 필수 코스</h3>
+					<p>빨간 등대는 꼭 가보세요~후회 없습니다!</p>
+				</li>
+				<li title="bast">
+					<p><img src="img/sightseeing4.png" alt="food"></p>
+					<h2>BAST  관광지</h2>
+				</li>
+				<li title="bast">
+					<p><img src="img/sightseeing_review14.png" alt="food"></p>
+					<h3>수국이 가장 이쁘게 피는 수국코스</h3>
+					<p>in 4~6월에만 가능한 코스입니다</p>
+				</li>
+				<li title="bast">
+					<p><img src="img/sightseeing_review15.png" alt="food"></p>
+					<h3>해외여행의 냄새가 나는 코스들 추천드려요</h3>
+					<p>멍멍같이 찍어도 명장면처럼 잘 나오는 장소들입니다!</p>
+				</li>
+				<li title="bast">
+					<p><img src="img/sightseeing_review16.png" alt="food"></p>
+					<h3>작디 작은 여행속 여행</h3>
+					<p>조그마한 기차를 타고 여행 속 여행을 다녀왔어요</p>
+				</li>
+			</ul>
+		</div>
+		<p class="plus"><button>더보기 + </button></p>
+		
+	</form>
+	</div>
+	<footer>
+	<nav>
+	<h2><a href="./index.html"><img src="img/logo2.png" alt="하단로고"></a></h2>
+		<address>
+			<p>고객만족센터 : 02. 3412. 0781</p>
+			<p>제주 서귀포시 대정읍 최남단해안로 412길 대표 : 황인희</p>
+			<p>사업자등록번호 : 215-86-65050 개인정보 책임자 : 황인희 TEL. 02-3412-0781 FAX. 02-3412-1907</p>
+			<p>COPYRIGHT ⓒ 2015 TOM N TOMS COFFEE. ALL RIGHTS RESERVED.</p>
+		</address>
+		<ul>
+			<li><a href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="트위터"></a></li>
+			<li><a href="https://www.facebook.com/"  target="_blank"><img src="img/f.png" alt="페이스북"></a></li>
+			<li><a href="https://www.instagram.com/"  target="_blank"><img src="img/ins.png" alt="인스타"></a></li>
+		</ul>
+	</nav>
+	</footer>
+</body>
+</html>

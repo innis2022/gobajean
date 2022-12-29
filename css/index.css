@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+
+/* 슬라이드 */
+.slide {
+	position:relative; overflow:hidden;
+	height:680px; 
+}
+/* #cover {position:relative;} */
+#cover img {display: block;}
+#cover a/*:not(:first-child)*/ {
+	position: absolute; top: 0; width: 100%;
+}
+
+/* bottom */
+#bottom {
+	position: absolute;
+	bottom: 10pt; left: 47%;
+	display: flex;
+}
+#bottom div {
+	width: 7px; height:7px;
+	border-radius: 50%; margin: 3px;
+	border: 2px solid whitesmoke;
+}
+#bottom div.pick {
+	width: 10px; height:10px;
+	margin-bottom: 3px;
+	background: white;
+}
+
+
+/* content 시작 */
+#contents {
+	position:relative; text-align:center;
+	min-height:700px;
+}
+#img {
+	margin-top:100px;
+	width:100%; height:350px;
+	background-color:#cfc89d;
+}
+#orange {
+	position:relative; display: flex;
+}
+#orange span { 
+	width:350px; float: left;
+	position: absolute; left: 350px;
+}
+#orange>h3 {
+	color:#5b7341; width: 300px;
+	font-size:4em; margin-bottom:40px;
+	position:absolute; left:520px; top:100px;
+}
+#orange p {
+	color:#333; text-align:left; 
+	position:absolute; left:900px; top:90px; width: 600px;
+}
+#orange>p:nth-child(3) {
+	color:#5b7341; width: 500px;
+	font-size:1.8em; font-weight:bold;
+}
+#orange>p:nth-child(4) {
+	top:144px; font-size:1.1em;
+}
+#orange>p:nth-child(5) {
+	top:195px; font-size:1.1em;
+}
+
+/* banner 시작 */
+/* #banner * {border: 1px solid red;} */
+#banner {
+	width:100%; height:1000px; margin-top: 150px;
+}
+#banner h3 {
+	color:#5b7341; margin-top:30px;
+	font-size:40px; letter-spacing:5px;
+}
+#banner>p {
+	font-size:20px; margin-top:15px;
+}
+#banner>ul {
+	width:1600px; margin:70px auto;
+	position:relative; 
+}
+#banner li {
+	width:495px; height:770px;
+	float:left;
+	border-left:1px solid #777;
+	padding:0px 17px; padding-top:40px;
+	
+}
+#banner li:last-child {
+	border-right:1px solid #777;
+}
+#banner .main_img {
+	width:390px; height:527px;
+	cursor:pointer;
+	/* overflow:hidden; */
+}
+.type1 .main_img {
+	background: url(../img/main_img1.png) no-repeat center center;
+}
+.type1 .main_img:hover {
+	background: url(../img/main_img1_hover.png) no-repeat center center;
+}
+.type2 .main_img {
+	background: url(../img/main_img2.png) no-repeat center center;
+}
+.type2 .main_img:hover {
+	background: url(../img/main_img2_hover.png) no-repeat center center;
+}
+.type3 .main_img {
+	background: url(../img/main_img3.png) no-repeat center center;
+}
+.type3 .main_img:hover {
+	background: url(../img/main_img3_hover.png) no-repeat center center;
+}
+#banner li>h3 {
+	color:#66803a; font-size:40px;
+	padding-left:30px; margin:40px 0px 20px 0px;
+}
+#banner span {
+	color:#666; font-size:18px; 
+	display: inline-block; 
+	margin:10px 0; width:400px;
+}
+
+
+/* explanation 시작 */
+#explanation {
+	position:relative;
+	width:100%; height:350px;
+	margin-top:100px;
+	background:url(../img/last.jpg) no-repeat ;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#explanation>p {
+	text-align:center; line-height:30px;
+	padding-top:137px;
+}
+#explanation a {
+	color:#fff; font-size:18px; font-weight:bold;
+}

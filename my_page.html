@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/my_page.js"></script>
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/my_page.css" rel="stylesheet">
+	<title>고바진 나의 페이지</title>
+</head>
+<body>
+	<header>
+		<h1><a href="./index.html"><img src="img/logo.png" alt="로고이미지"></a></h1>
+		<nav>
+			<ul class="main">
+				<li><a href="./brand.html" class="ad">소개</a>
+					<ul class="sub">
+						<li><a href="./brand.html">고바진 소개</a></li>
+						<li><a href="./brand.html">고바진 스토리</a></li>
+					</ul>
+				</li>
+				<li><a href="./food.html" class="ad">맛집</a>
+					<ul class="sub">
+						<li><a href="./food.html">서쪽맛집</a></li>
+						<li><a href="./food.html">동쪽맛집</a></li>
+						<li><a href="./food.html">섬(도)맛집</a></li>
+						<li><a href="./food.html">Bast 10</a></li>
+					</ul>
+				</li>
+				<li><a href="./sightseeing.html" class="ad">관광</a>
+					<ul class="sub">
+						<li><a href="./sightseeing.html">서쪽관광</a></li>
+						<li><a href="./sightseeing.html">동쪽관광</a></li>
+						<li><a href="./sightseeing.html">섬(도)관광</a></li>
+						<li><a href="./sightseeing.html">Bast 10</a></li>
+					</ul>
+				</li>
+				<li><a href="./community.html" class="ad">커뮤니티</a>
+					<ul class="sub">
+						<li><a href="./community.html">질문게시판</a></li>
+						<li><a href="./community.html">자유게시판</a></li>
+						<li><a href="./community.html">공지FQA</a></li>
+						<li><a href="./community.html">Bast Tip</a></li>
+					</ul>
+				</li>
+				<li><a href="./my_page.html" class="ad">마이페이지</a>
+					<ul class="sub">
+						<li><a href="./my_page.html">MY구독</a></li>
+						<li><a href="./my_page.html">관심글</a></li>
+						<li><a href="./my_page.html">작성글</a></li>
+						<li><a href="./my_page.html" class="last">쪽지</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="sub_bg"></div>
+		</nav>
+		<section class="login">
+			<h2 class="hidden">로그인</h2>
+			<div class="login_cover">
+				<ul>
+					<li><a href="./login.html">로그인/회원가입</a></li>
+				</ul>
+			</div>
+		</section>
+	</header>
+	<div class="contents">
+		<h2>회원가입</h2>
+		<p class="h2_ex">회원정보를 수정할 수 있습니다.</p>
+		<form>
+			<p class="my_img">
+				<img src="img/my_page.png" alt="내 이미지">
+			</p>
+			<p>
+				<label for="name">닉네임</label>  
+				<input type="text" name="name" >
+			</p>
+			<p>
+				<label for="password">인삿말</label>    
+				<input type="text" name="text" size="12">
+			</p>
+			<ul class="button3">
+				<li>
+					<button>사진선택
+						<input type="file"accept="image/jpg, image/GIF"></button>
+				</li>
+				<li>
+					<button>저장<input type="submit" value="저장" onclick="checkNoEmpty(document.getElementById('user'))"></button>
+				</li>
+				<li>
+					<button>취소<input type="reset" value="취소"></button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<footer>
+		<nav>
+		<h2><a href="./index.html"><img src="img/logo2.png" alt="하단로고"></a></h2>
+			<address>
+				<p>고객만족센터 : 02. 3412. 0781</p>
+				<p>제주 서귀포시 대정읍 최남단해안로 412길 대표 : 황인희</p>
+				<p>사업자등록번호 : 215-86-65050 개인정보 책임자 : 황인희 TEL. 02-3412-0781 FAX. 02-3412-1907</p>
+				<p>COPYRIGHT ⓒ 2015 TOM N TOMS COFFEE. ALL RIGHTS RESERVED.</p>
+			</address>
+			<ul>
+				<li><a href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="트위터"></a></li>
+				<li><a href="https://www.facebook.com/"  target="_blank"><img src="img/f.png" alt="페이스북"></a></li>
+				<li><a href="https://www.instagram.com/"  target="_blank"><img src="img/ins.png" alt="인스타"></a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

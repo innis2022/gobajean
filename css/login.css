@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 로그인 */
+
+.contents>h2 {
+	font-size:2.5em; width:800px;
+	margin-top:200px; padding-bottom:50px;
+	border-bottom:2px solid #3d423d;
+}
+#login {
+	position:relative; width:800px;
+	margin-top:25px;
+}
+#login li {
+	float:right;
+	margin:15px 0 0 10px;
+}
+#login>p {
+	width:680px; height:50px;
+	float:left;
+	box-sizing:border-box;
+}
+#login>p:nth-child(1)>label, #login>p:nth-child(2)>label {
+	
+	font-size:18px;font-weight:bold;
+	line-height:45px; text-align:left;
+}
+#login>p>input {
+	width:550px; height:40px;
+	border-radius:4px; border:1px solid gray;
+	margin-left:20px; padding-top:4px;
+}
+#login>p:nth-child(1)>input {
+	margin-left:39px;
+}
+.loginButton {
+	width:100px; height:100px;
+	background-color:#3d423d;
+	border-radius:6px; border: none;
+	color:#fff; font-size:17px;
+}
+
+
+/* 회원가입 */
+#join {
+	width: 800px; height: 800px;
+	margin-top:100px;
+	/* border: 1px solid red; */
+}
+#join h2 {
+	text-align: center; margin: 20px auto;
+	font-size: 2rem;
+}
+#join .acc {
+	width:600px; margin-top:25px;
+	text-align:center;
+}
+#join h4 {
+	text-align: center; font-size: 1.3rem;
+	margin: 60pt 0 10pt 0;
+}
+
+
+
+#snsLogin {
+	width: 700px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#snsLogin>div {
+	margin:auto 10px 40px auto;
+} 
+#snsLogin a {
+	display:inline-block;
+	width: 150px; height: 150px;
+	border-radius: 50%;
+	background-color: #3d423d;
+	transition: 0.2s;
+}
+#snsLogin img {
+	max-width: 100%;
+}
+#snsLogin div:first-child:hover a {
+	background-color: #3b599a;
+}
+#snsLogin div:nth-child(2):hover a {
+	background-color: #29ade3;
+}
+#snsLogin div:nth-child(3):hover a {
+	background: linear-gradient(40deg, #fcb214, #ed1b4c, #8f2685, #5757a2)
+}
+#snsLogin div:nth-child(4):hover a {
+	background-color: #f0da28;
+}
+#snsLogin div:nth-child(5):hover a {
+	background-color: #dd4336;
+}
+#snsLogin div:nth-child(6):hover a {
+	background-color: #59419a;
+}
+#snsLogin div:nth-child(7):hover a {
+	background-color: #06be34;
+}
+#snsLogin div:nth-child(8):hover a {
+	background-color: #e72624;
+}
+
+
